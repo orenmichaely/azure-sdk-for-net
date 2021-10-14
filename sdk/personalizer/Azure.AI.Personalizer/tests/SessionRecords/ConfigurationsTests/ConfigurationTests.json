@@ -50,7 +50,7 @@
         "defaultReward": 1,
         "rewardAggregation": "average",
         "explorationPercentage": 0.200000003,
-        "modelExportFrequency": "PT3M",
+        "modelExportFrequency": "PT4H",
         "logRetentionDays": 2147483647
       },
       "StatusCode": 200,
@@ -72,7 +72,7 @@
         "x-envoy-upstream-service-time": "392"
       },
       "ResponseBody": {
-        "rewardWaitTime": "PT7S",
+        "rewardWaitTime": "PT4H",
         "defaultReward": 1.0,
         "rewardAggregation": "average",
         "explorationPercentage": 0.2,
@@ -163,7 +163,7 @@
         "x-envoy-upstream-service-time": "10"
       },
       "ResponseBody": {
-        "rewardWaitTime": "PT7S",
+        "rewardWaitTime": "PT4H",
         "defaultReward": 1.0,
         "rewardAggregation": "average",
         "explorationPercentage": 0.2,
